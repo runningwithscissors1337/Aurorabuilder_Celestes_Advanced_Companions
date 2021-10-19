@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Companions</name>
+		<description>Custom Companions for Celeste's Advanced Companions.</description>
+		<author url="">Wizards of the Coast</author>
+		<update version="0.0.3">
+			<file name="companions.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Direwolf" type="Companion" source="Player’s Handbook" id="ID_ALXSTRDST_CAC_COMPANION_DIREWOLF">
+		<description />
+		<setters>
+			<set name="strength">17</set>
+			<set name="dexterity">15</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">3</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">7</set>
+			<set name="ac">14</set>
+			<set name="hp">37 (5d10+10)</set>
+			<set name="speed">50 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Perception +3, Stealth +4</set>
+			<set name="type">Beast</set>
+			<set name="size">Large</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">1</set>
+			<set name="traits">ID_ALXSTRDST_CAC_TRAIT_DIREWOLF_PACK_TACTICS, ID_ALXSTRDST_CAC_COMPANION_TRAIT_DIREWOLF_KEEN_HEARING_AND_SMELL</set>
+			<set name="actions">ID_ALXSTRDST_CAC_COMPANION_ACTION_DIREWOLF_BITE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="14" />
+			<stat name="companion:hp:max" value="37" bonus="base" />
+			<stat name="companion:speed" value="50" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Bite" type="Companion Action" source="Custom Companions" id="ID_ALXSTRDST_CAC_COMPANION_ACTION_DIREWOLF_BITE">
+		<description>
+			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</description>
+		</sheet>
+	</element>
+	<element name="Pack Tactics" type="Companion Trait" source="Player’s Handbook" id="ID_ALXSTRDST_CAC_COMPANION_TRAIT_BABOON_PACK_TACTICS">
+		<description>
+			<p>The direwolf has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>
+		</description>
+		<sheet>
+			<description>The direwolf has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 ft. of the creature and the ally isn't incapacitated.</description>
+		</sheet>
+	</element>
+	<element name="Keen Hearning And Smell" type="Companion Trait" source="Player’s Handbook" id="ID_ALXSTRDST_CAC_COMPANION_TRAIT_DIREWOLF_KEEN_HEARING_AND_SMELL">
+		<description>
+			<p>The direwolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+		</description>
+		<sheet>
+			<description>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+		</sheet>
+	</element>
+</elements>
