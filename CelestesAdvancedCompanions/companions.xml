@@ -5,7 +5,7 @@
 		<description>Custom Companions for Celeste's Advanced Companions.</description>
 		<author url="https://github.com/runningwithscissors1337">ALXSTRDST</author>
 		<update version="0.0.3">
-			<file name="companions.xml" url="https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/CelestesAdvancedCompanions/Companions.xml" />
+			<file name="companions.xml" url="https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/CelestesAdvancedCompanions/companions.xml" />
 		</update>
 	</info>
 
