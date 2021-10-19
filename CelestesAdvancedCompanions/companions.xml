@@ -3,9 +3,9 @@
 	<info>
 		<name>Companions</name>
 		<description>Custom Companions for Celeste's Advanced Companions.</description>
-		<author url="">Wizards of the Coast</author>
+		<author url="https://github.com/runningwithscissors1337">ALXSTRDST</author>
 		<update version="0.0.3">
-			<file name="companions.xml" url="" />
+			<file name="companions.xml" url="https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/CelestesAdvancedCompanions/Companions.xml" />
 		</update>
 	</info>
 
