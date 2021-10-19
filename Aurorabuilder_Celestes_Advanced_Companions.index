@@ -7,7 +7,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="Companions.xml" url="https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/CelestesAdvancedCompanions/Companions.xml" />
-		<file name="Items-Companion-Equipment.xml" url="https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/CelestesAdvancedCompanions/Items-Companion-Equipment.xml" />
+		<file name="companions.xml" url="https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/CelestesAdvancedCompanions/companions.xml" />
+		<file name="items-companion-equipment.xml" url="https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/CelestesAdvancedCompanions/items-companion-equipment.xml" />
 	</files>
 </index>
