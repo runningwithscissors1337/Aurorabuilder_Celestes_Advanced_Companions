@@ -1,7 +1,7 @@
 # repositoryname
 additional content to extend [Aurora](https://aurorabuilder.com/), by yourname
 
-index url: https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname.index
+index url: https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/Aurorabuilder_Celestes_Advanced_Companions.index
 
 ---
 
