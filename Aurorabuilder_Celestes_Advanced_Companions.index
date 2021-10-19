@@ -3,7 +3,7 @@
 	<info>
 		<name>Celestes Advanced Companions</name>
 		<update version="1.0.0">
-			<file name="user-yourname.index" url="https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/Aurorabuilder_Celestes_Advanced_Companions.index" />
+			<file name="Aurorabuilder_Celestes_Advanced_Companions.index" url="https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/Aurorabuilder_Celestes_Advanced_Companions.index" />
 		</update>
 	</info>
 	<files>
