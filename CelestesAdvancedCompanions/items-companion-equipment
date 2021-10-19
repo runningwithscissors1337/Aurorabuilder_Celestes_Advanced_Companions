@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Companion Equipment</name>
+		<description></description>
+		<author url="https://github.com/runningwithscissors1337">ALXSTRDST</author>
+		<update version="0.1.0">
+			<file name="items-companion-equipment.xml" url="https://raw.githubusercontent.com/runningwithscissors1337/Aurorabuilder_Celestes_Advanced_Companions/master/CelestesAdvancedCompanions/Items-Companion-Equipment.xml" />
+		</update>
+	</info>
